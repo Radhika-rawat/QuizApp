@@ -1,0 +1,76 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(70, 70, 176);
+}
+
+.app{
+ background-color: azure;
+ width: 90%;
+ max-width: 600px;
+ margin: 100px auto 0;
+ border-radius: 10px;
+height: 430px;
+
+}
+
+.app h1{
+ height: 15px;
+ font-weight: 20;
+ color: rgb(26, 2, 2);
+ 
+ border-bottom: 1px solid rgb(139, 124, 124);
+ padding-bottom: 40px;
+ padding-top: 10px;
+}
+
+.quiz{
+ padding: 20px 0;
+}
+
+.quiz h2{
+ font-size: 3rem;
+color: black;
+font-weight: 500;
+
+}
+.btn{
+ background-color: #fff;
+ color: #222;
+ font-weight: 500;
+ width: 95%;
+ border: 10x solid black;
+ padding: 10px;
+
+ margin: 10px ;
+ text-align:left ;
+ border-radius: 4px;
+ cursor: pointer;
+ transition: 0.3sec;
+}
+.btn:hover{
+ background-color: #222;
+ color: #fff;
+ transition: 0.3s;
+}
+
+#next-btn{
+ 
+ margin-top: 2px;
+ background-color: rgb(2, 22, 40);
+ color: #fff;
+ width: 100px;
+padding: 10px;
+
+ border: 2px solid black;
+ border-radius: 2px;
+ padding: 10px;
+ margin: 5px auto 20px;
+ cursor: pointer;
+ display:block;
+ display: none;
+}
