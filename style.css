@@ -5,11 +5,11 @@
 }
 
 body{
- background-color: rgb(70, 70, 176);
+ background-color: rgb(93, 78, 63);
 }
 
 .app{
- background-color: azure;
+ background-color: rgba(195, 195, 185, 0.863);
  width: 90%;
  max-width: 600px;
  margin: 100px auto 0;
@@ -33,7 +33,7 @@ height: 430px;
 }
 
 .quiz h2{
- font-size: 3rem;
+ font-size: 2.2rem;
 color: black;
 font-weight: 500;
 
@@ -52,10 +52,13 @@ font-weight: 500;
  cursor: pointer;
  transition: 0.3sec;
 }
-.btn:hover{
+.btn:hover:not([disabled]){
  background-color: #222;
  color: #fff;
  transition: 0.3s;
+}
+.btn:disabled{
+ cursor:no-drop ;
 }
 
 #next-btn{
@@ -73,4 +76,12 @@ padding: 10px;
  cursor: pointer;
  display:block;
  display: none;
+}
+
+.correct{
+ background-color: green;
+}
+
+.incorrect{
+ background-color: red;
 }
